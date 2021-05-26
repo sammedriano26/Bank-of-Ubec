@@ -1,0 +1,222 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #FCF7F8;
+  color: #0C1821;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 2%;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6;
+  margin-bottom: 1.5rem; }
+
+a {
+  color: rgba(12, 24, 33, 0.6);
+  text-decoration: none;
+  font-size: 1rem; }
+
+li {
+  list-style: none; }
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  font-size: 1rem; }
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.highlight {
+  color: #0057FF;
+  font-weight: 800; }
+
+.btn-blue {
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  background: #0057FF;
+  color: #FCF7F8;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  opacity: 80%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 200ms ease-in-out; }
+  .btn-blue:hover {
+    background: #0747c9; }
+
+.btn-text {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: rgba(12, 24, 33, 0.6);
+  width: 200px;
+  height: 45px;
+  cursor: pointer; }
+  .btn-text i {
+    color: rgba(12, 24, 33, 0.6);
+    transition: transform 300ms ease-in; }
+  .btn-text:hover i {
+    transform: translateX(5px); }
+
+#showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  width: 100%; }
+  #showcase .showcase-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    #showcase .showcase-left #main-nav {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      padding: 1rem 0; }
+      #showcase .showcase-left #main-nav img {
+        height: 50px;
+        padding-top: .75rem; }
+      #showcase .showcase-left #main-nav .list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 100%; }
+        #showcase .showcase-left #main-nav .list a {
+          font-weight: 500;
+          font-size: 1rem;
+          letter-spacing: 2%;
+          transition: color 150ms ease-in; }
+          #showcase .showcase-left #main-nav .list a:hover {
+            color: #0C1821; }
+    #showcase .showcase-left .value-proposition {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+      #showcase .showcase-left .value-proposition .main-title {
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: rgba(12, 24, 33, 0.8);
+        margin-bottom: 2rem; }
+      #showcase .showcase-left .value-proposition .lead {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: rgba(12, 24, 33, 0.6);
+        width: 75%;
+        letter-spacing: 1px;
+        margin-bottom: 5rem; }
+    #showcase .showcase-left .services-summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem; }
+      #showcase .showcase-left .services-summary .boxes {
+        width: 80%; }
+        #showcase .showcase-left .services-summary .boxes i {
+          color: #0057FF;
+          font-size: 1.5rem;
+          margin-bottom: 1rem; }
+        #showcase .showcase-left .services-summary .boxes .title, #showcase .showcase-left .services-summary .boxes p {
+          font-size: 14px;
+          color: rgba(12, 24, 33, 0.6); }
+        #showcase .showcase-left .services-summary .boxes .title {
+          position: relative;
+          margin-left: 10px; }
+        #showcase .showcase-left .services-summary .boxes .title::before {
+          content: '';
+          position: absolute;
+          left: -10px;
+          width: 5px;
+          height: 20px;
+          background: #0057FF;
+          margin-right: 1rem; }
+        #showcase .showcase-left .services-summary .boxes p {
+          color: rgba(12, 24, 33, 0.8); }
+        #showcase .showcase-left .services-summary .boxes .highlight-dark {
+          color: #0C1821;
+          font-weight: 500; }
+  #showcase .showcase-right {
+    background: url("../img/businessman.jpg") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #showcase .showcase-right .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #0C1821;
+      opacity: 40%;
+      z-index: 1; }
+    #showcase .showcase-right .form-body {
+      background: #FCF7F8;
+      height: auto;
+      height: 422px;
+      width: 438px;
+      padding: 2rem;
+      margin: 0 auto;
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      z-index: 2; }
+      #showcase .showcase-right .form-body form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.75rem 0;
+        height: 100%; }
+        #showcase .showcase-right .form-body form .form-group {
+          width: 100%; }
+          #showcase .showcase-right .form-body form .form-group:nth-child(3) {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; }
+            #showcase .showcase-right .form-body form .form-group:nth-child(3) input {
+              margin-right: 0.5rem;
+              width: 20px;
+              height: 20px;
+              border: 1px solid rgba(12, 24, 33, 0.4);
+              border-radius: 15px;
+              color: rgba(12, 24, 33, 0.6);
+              background: none; }
+            #showcase .showcase-right .form-body form .form-group:nth-child(3) label {
+              color: rgba(12, 24, 33, 0.6); }
+          #showcase .showcase-right .form-body form .form-group:last-child {
+            display: flex;
+            justify-content: space-between; }
+            #showcase .showcase-right .form-body form .form-group:last-child i {
+              transition: transform 300ms ease-in; }
+            #showcase .showcase-right .form-body form .form-group:last-child a:hover i {
+              transform: translateX(5px); }
+          #showcase .showcase-right .form-body form .form-group input[type="text"], #showcase .showcase-right .form-body form .form-group input[type="password"] {
+            display: block;
+            font-size: 18px;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            width: 100%;
+            border: none;
+            outline: none;
+            background: none;
+            color: rgba(12, 24, 33, 0.6);
+            font-weight: normal;
+            font-style: normal;
+            padding: .75rem 1rem;
+            margin-bottom: .5rem;
+            border-bottom: 1px solid rgba(12, 24, 33, 0.4);
+            transition: all 200ms ease-in-out; }
+            #showcase .showcase-right .form-body form .form-group input[type="text"]:focus, #showcase .showcase-right .form-body form .form-group input[type="password"]:focus {
+              border-color: #0057FF; }
+        #showcase .showcase-right .form-body form button {
+          width: 100%; }

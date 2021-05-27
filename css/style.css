@@ -163,9 +163,9 @@ p {
     #showcase .showcase-right .form-body {
       background: #FCF7F8;
       height: auto;
-      height: 422px;
-      width: 438px;
-      padding: 2rem;
+      height: 352px;
+      width: 358px;
+      padding: 1.5rem;
       margin: 0 auto;
       border: none;
       border-radius: 15px;
@@ -185,24 +185,27 @@ p {
             align-items: center; }
             #showcase .showcase-right .form-body form .form-group:nth-child(3) input {
               margin-right: 0.5rem;
-              width: 20px;
-              height: 20px;
+              width: 15px;
+              height: 15px;
               border: 1px solid rgba(12, 24, 33, 0.4);
               border-radius: 15px;
               color: rgba(12, 24, 33, 0.6);
               background: none; }
             #showcase .showcase-right .form-body form .form-group:nth-child(3) label {
-              color: rgba(12, 24, 33, 0.6); }
+              color: rgba(12, 24, 33, 0.6);
+              font-size: 14px; }
           #showcase .showcase-right .form-body form .form-group:last-child {
             display: flex;
             justify-content: space-between; }
+            #showcase .showcase-right .form-body form .form-group:last-child a {
+              font-size: 14px; }
             #showcase .showcase-right .form-body form .form-group:last-child i {
               transition: transform 300ms ease-in; }
             #showcase .showcase-right .form-body form .form-group:last-child a:hover i {
               transform: translateX(5px); }
           #showcase .showcase-right .form-body form .form-group input[type="text"], #showcase .showcase-right .form-body form .form-group input[type="password"] {
             display: block;
-            font-size: 18px;
+            font-size: 14px;
             line-height: 1.5;
             letter-spacing: 1px;
             width: 100%;
@@ -213,13 +216,13 @@ p {
             font-weight: normal;
             font-style: normal;
             padding: .75rem 1rem;
-            margin-bottom: .5rem;
             border-bottom: 1px solid rgba(12, 24, 33, 0.4);
             transition: all 200ms ease-in-out; }
             #showcase .showcase-right .form-body form .form-group input[type="text"]:focus, #showcase .showcase-right .form-body form .form-group input[type="password"]:focus {
               border-color: #0057FF; }
         #showcase .showcase-right .form-body form button {
-          width: 100%; }
+          width: 100%;
+          font-size: 14px; }
 
 #checking {
   display: flex;
@@ -318,3 +321,49 @@ p {
       #credit-cards .cards .card p {
         font-size: 1.15rem;
         color: rgba(12, 24, 33, 0.6); }
+
+#ubec-pay {
+  background: #0C1821;
+  color: #FCF7F8; }
+  #ubec-pay .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 100vh; }
+    #ubec-pay .container img {
+      height: 80%;
+      border-radius: 8px; }
+    #ubec-pay .container .ubec-pay-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 70vh;
+      width: 100%;
+      margin-left: 5rem; }
+      #ubec-pay .container .ubec-pay-details .main-title {
+        font-size: 3.5rem;
+        letter-spacing: 2px;
+        text-transform: uppercase; }
+      #ubec-pay .container .ubec-pay-details .lead {
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 2%;
+        width: 55%;
+        opacity: .5;
+        margin: 0 auto; }
+      #ubec-pay .container .ubec-pay-details div:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem; }
+        #ubec-pay .container .ubec-pay-details div:nth-of-type(2) div {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 0 1rem;
+          height: 200px; }
+          #ubec-pay .container .ubec-pay-details div:nth-of-type(2) div i {
+            font-size: 1.5rem;
+            color: #0057FF; }

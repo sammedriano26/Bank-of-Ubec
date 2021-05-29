@@ -218,7 +218,8 @@ p {
               background: none; }
             #showcase .showcase-right .form-body form .form-group:nth-child(3) label {
               color: rgba(12, 24, 33, 0.6);
-              font-size: 14px; }
+              font-size: 14px;
+              margin-top: 0.1rem; }
           #showcase .showcase-right .form-body form .form-group:last-child {
             display: flex;
             justify-content: space-between; }
@@ -497,6 +498,9 @@ p {
           margin-bottom: 2rem; }
       #main-footer .contact .footer-details:nth-child(2) img {
         height: 30px; }
+
+#contact-header #main-nav .list {
+  width: 36.5%; }
 
 #contact-hero {
   background: #FCF7F8; }

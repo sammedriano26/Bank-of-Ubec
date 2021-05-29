@@ -750,4 +750,29 @@ p {
         #main-footer .contact .footer-details:nth-child(2) img {
           margin-bottom: 1rem; }
         #main-footer .contact .footer-details:nth-child(2) p {
-          opacity: 80%; } }
+          opacity: 80%; }
+  #contact-header #main-nav img {
+    height: 40px; }
+  #contact-header #main-nav .list {
+    display: none; }
+  #contact-hero .main-title {
+    font-size: 1.5rem;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0 10rem; }
+  #contact-form .contact-options {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto; }
+    #contact-form .contact-options .form-container {
+      width: 100%;
+      margin: -8rem auto 2rem; }
+      #contact-form .contact-options .form-container div:first-child {
+        margin-bottom: 2rem; }
+    #contact-form .contact-options div:nth-child(2) .lead {
+      width: 100%; }
+    #contact-form .contact-options div:nth-child(2) .contact-group {
+      margin-bottom: 1rem;
+      padding-bottom: .5rem; }
+      #contact-form .contact-options div:nth-child(2) .contact-group p {
+        font-size: .9rem; } }

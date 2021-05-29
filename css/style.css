@@ -279,14 +279,17 @@ p {
       width: 50%; }
       #checking .details-container .info .main-title {
         color: rgba(12, 24, 33, 0.8);
-        font-weight: 600; }
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 1.5; }
       #checking .details-container .info .title-subtext {
-        font-size: 1.15rem;
+        font-size: 1rem;
         line-height: 1.6;
         color: rgba(12, 24, 33, 0.8);
         margin-bottom: 2rem; }
       #checking .details-container .info button {
-        width: 250px; }
+        width: 250px;
+        font-size: 0.9rem; }
 
 #credit-cards {
   display: flex;
@@ -516,6 +519,9 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem; }
     #contact-form .contact-options .form-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
       background: #FCF7F8;
       color: rgba(12, 24, 33, 0.6);
       height: auto;
@@ -531,7 +537,7 @@ p {
         #contact-form .contact-options .form-container div:first-child .form-lead {
           font-size: 14px;
           width: 90%;
-          margin-bottom: 2rem; }
+          margin: 0 auto; }
       #contact-form .contact-options .form-container form input,
       #contact-form .contact-options .form-container form textarea {
         display: block;
@@ -550,9 +556,9 @@ p {
         #contact-form .contact-options .form-container form textarea:focus {
           border-color: #0057FF; }
       #contact-form .contact-options .form-container form textarea {
-        height: fit-content;
+        height: 100px;
         margin-bottom: 2rem; }
-      #contact-form .contact-options .form-container form button {
+      #contact-form .contact-options .form-container button {
         width: 100%;
         font-size: 0.8rem;
         height: 35px; }
@@ -565,7 +571,7 @@ p {
       width: 60%;
       margin-bottom: 3rem; }
     #contact-form .contact-options > div:nth-child(2) .contact-group {
-      margin-bottom: 3rem;
+      margin-bottom: 1.5rem;
       border-bottom: 1px solid rgba(252, 247, 248, 0.2);
       font-size: 1rem;
       font-weight: 300;
@@ -574,7 +580,7 @@ p {
       #contact-form .contact-options > div:nth-child(2) .contact-group:hover {
         background: #4379aa;
         border: none;
-        border-radius: 4px;
+        border-radius: 8px;
         box-shadow: 0px 15px 25px rgba(12, 24, 33, 0.2); }
       #contact-form .contact-options > div:nth-child(2) .contact-group .group-title {
         color: #FCF7F8;

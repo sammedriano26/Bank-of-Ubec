@@ -786,7 +786,7 @@ p {
       #contact-form .contact-options div:nth-child(2) .contact-group p {
         font-size: .9rem; } }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 376px) and (max-width: 425px) {
   .container {
     max-width: 90%;
     height: 100%;
@@ -976,7 +976,7 @@ p {
       #contact-form .contact-options div:nth-child(2) .contact-group p {
         font-size: .9rem; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .container {
     max-width: 90%;
     height: 100%;

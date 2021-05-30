@@ -98,159 +98,162 @@ p {
       #main-nav .list a:hover {
         color: #0C1821; }
 
-#showcase {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  height: 100vh;
-  width: 100%; }
-  #showcase .showcase-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    #showcase .showcase-left #main-nav {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      text-align: center;
-      padding: 1rem 0; }
-      #showcase .showcase-left #main-nav img {
-        height: 50px;
-        padding-top: 0.75rem; }
-      #showcase .showcase-left #main-nav .list {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-        width: 100%; }
-        #showcase .showcase-left #main-nav .list a {
-          font-weight: 500;
-          font-size: 1rem;
-          letter-spacing: 2%;
-          transition: color 150ms ease-in; }
-          #showcase .showcase-left #main-nav .list a:hover {
-            color: #0C1821; }
-    #showcase .showcase-left .value-proposition {
+#main-showcase {
+  height: 100vh; }
+  #main-showcase .showcase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto; }
+    #main-showcase .showcase-left {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly; }
-      #showcase .showcase-left .value-proposition .lead {
-        font-size: 1.25rem;
-        font-weight: 400;
-        color: rgba(12, 24, 33, 0.6);
-        width: 75%;
-        letter-spacing: 1px;
-        margin-bottom: 5rem; }
-    #showcase .showcase-left .services-summary {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 1rem; }
-      #showcase .showcase-left .services-summary .boxes {
-        width: 80%; }
-        #showcase .showcase-left .services-summary .boxes i {
-          color: #0057FF;
-          font-size: 1.5rem;
-          margin-bottom: 1rem; }
-        #showcase .showcase-left .services-summary .boxes .title,
-        #showcase .showcase-left .services-summary .boxes p {
-          font-size: 14px;
-          color: rgba(12, 24, 33, 0.6); }
-        #showcase .showcase-left .services-summary .boxes .title {
-          position: relative;
-          margin-left: 10px; }
-        #showcase .showcase-left .services-summary .boxes .title::before {
-          content: "";
-          position: absolute;
-          left: -10px;
-          width: 5px;
-          height: 20px;
-          background: #0057FF;
-          margin-right: 1rem; }
-        #showcase .showcase-left .services-summary .boxes p {
-          color: rgba(12, 24, 33, 0.8); }
-        #showcase .showcase-left .services-summary .boxes .highlight-dark {
-          color: #0C1821;
-          font-weight: 500; }
-  #showcase .showcase-right {
-    background: url("../img/businessman.jpg") no-repeat center center/cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    #showcase .showcase-right .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: #0C1821;
-      opacity: 40%;
-      z-index: 1; }
-    #showcase .showcase-right .form-body {
-      background: #FCF7F8;
-      height: auto;
-      height: 352px;
-      width: 358px;
-      padding: 1.5rem;
-      margin: 0 auto;
-      border: none;
-      border-radius: 15px;
-      overflow: hidden;
-      z-index: 2; }
-      #showcase .showcase-right .form-body form {
+      justify-content: space-between; }
+      #main-showcase .showcase-left #main-nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 0; }
+        #main-showcase .showcase-left #main-nav img {
+          height: 50px;
+          padding-top: 0.75rem; }
+        #main-showcase .showcase-left #main-nav .list {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          text-align: center;
+          width: 100%; }
+          #main-showcase .showcase-left #main-nav .list a {
+            font-weight: 500;
+            font-size: 1rem;
+            letter-spacing: 2%;
+            transition: color 150ms ease-in; }
+            #main-showcase .showcase-left #main-nav .list a:hover {
+              color: #0C1821; }
+      #main-showcase .showcase-left .value-proposition {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        padding: 0.75rem 0;
-        height: 100%; }
-        #showcase .showcase-right .form-body form .form-group {
-          width: 100%; }
-          #showcase .showcase-right .form-body form .form-group:nth-child(3) {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center; }
-            #showcase .showcase-right .form-body form .form-group:nth-child(3) input {
-              margin-right: 0.5rem;
-              width: 15px;
-              height: 15px;
-              border: 1px solid rgba(12, 24, 33, 0.4);
-              border-radius: 15px;
-              color: rgba(12, 24, 33, 0.6);
-              background: none; }
-            #showcase .showcase-right .form-body form .form-group:nth-child(3) label {
-              color: rgba(12, 24, 33, 0.6);
-              font-size: 14px;
-              margin-top: 0.1rem; }
-          #showcase .showcase-right .form-body form .form-group:last-child {
-            display: flex;
-            justify-content: space-between; }
-            #showcase .showcase-right .form-body form .form-group:last-child a {
-              font-size: 14px; }
-            #showcase .showcase-right .form-body form .form-group:last-child i {
-              transition: transform 300ms ease-in; }
-            #showcase .showcase-right .form-body form .form-group:last-child a:hover i {
-              transform: translateX(5px); }
-          #showcase .showcase-right .form-body form .form-group input[type="text"],
-          #showcase .showcase-right .form-body form .form-group input[type="password"] {
-            display: block;
+        justify-content: space-evenly; }
+        #main-showcase .showcase-left .value-proposition .lead {
+          font-size: 1.25rem;
+          font-weight: 400;
+          color: rgba(12, 24, 33, 0.6);
+          width: 75%;
+          letter-spacing: 1px;
+          margin-bottom: 5rem; }
+      #main-showcase .showcase-left .services-summary {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem; }
+        #main-showcase .showcase-left .services-summary .boxes {
+          width: 80%; }
+          #main-showcase .showcase-left .services-summary .boxes i {
+            color: #0057FF;
+            font-size: 1.5rem;
+            margin-bottom: 1rem; }
+          #main-showcase .showcase-left .services-summary .boxes .title,
+          #main-showcase .showcase-left .services-summary .boxes p {
             font-size: 14px;
-            line-height: 1.5;
-            letter-spacing: 1px;
-            width: 100%;
-            border: none;
-            outline: none;
-            background: none;
-            color: rgba(12, 24, 33, 0.6);
-            font-weight: normal;
-            font-style: normal;
-            padding: 0.75rem 1rem;
-            border-bottom: 1px solid rgba(12, 24, 33, 0.4);
-            transition: all 200ms ease-in-out; }
-            #showcase .showcase-right .form-body form .form-group input[type="text"]:focus,
-            #showcase .showcase-right .form-body form .form-group input[type="password"]:focus {
-              border-color: #0057FF; }
-        #showcase .showcase-right .form-body form button {
-          width: 100%;
-          font-size: 14px; }
+            color: rgba(12, 24, 33, 0.6); }
+          #main-showcase .showcase-left .services-summary .boxes .title {
+            position: relative;
+            margin-left: 10px; }
+          #main-showcase .showcase-left .services-summary .boxes .title::before {
+            content: "";
+            position: absolute;
+            left: -10px;
+            width: 5px;
+            height: 20px;
+            background: #0057FF;
+            margin-right: 1rem; }
+          #main-showcase .showcase-left .services-summary .boxes p {
+            color: rgba(12, 24, 33, 0.8); }
+          #main-showcase .showcase-left .services-summary .boxes .highlight-dark {
+            color: #0C1821;
+            font-weight: 500; }
+    #main-showcase .showcase-right {
+      background: url("../img/businessman.jpg") no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; }
+      #main-showcase .showcase-right .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #0C1821;
+        opacity: 40%;
+        z-index: 1; }
+      #main-showcase .showcase-right .form-body {
+        background: #FCF7F8;
+        height: auto;
+        height: 352px;
+        width: 358px;
+        padding: 1.5rem;
+        margin: 0 auto;
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+        z-index: 2; }
+        #main-showcase .showcase-right .form-body form {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 0.75rem 0;
+          height: 100%; }
+          #main-showcase .showcase-right .form-body form .form-group {
+            width: 100%; }
+            #main-showcase .showcase-right .form-body form .form-group:nth-child(3) {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center; }
+              #main-showcase .showcase-right .form-body form .form-group:nth-child(3) input {
+                margin-right: 0.5rem;
+                width: 15px;
+                height: 15px;
+                border: 1px solid rgba(12, 24, 33, 0.4);
+                border-radius: 15px;
+                color: rgba(12, 24, 33, 0.6);
+                background: none; }
+              #main-showcase .showcase-right .form-body form .form-group:nth-child(3) label {
+                color: rgba(12, 24, 33, 0.6);
+                font-size: 14px;
+                margin-top: 0.1rem; }
+            #main-showcase .showcase-right .form-body form .form-group:last-child {
+              display: flex;
+              justify-content: space-between; }
+              #main-showcase .showcase-right .form-body form .form-group:last-child a {
+                font-size: 14px; }
+              #main-showcase .showcase-right .form-body form .form-group:last-child i {
+                transition: transform 300ms ease-in; }
+              #main-showcase .showcase-right .form-body form .form-group:last-child a:hover i {
+                transform: translateX(5px); }
+            #main-showcase .showcase-right .form-body form .form-group input[type="text"],
+            #main-showcase .showcase-right .form-body form .form-group input[type="password"] {
+              display: block;
+              font-size: 14px;
+              line-height: 1.5;
+              letter-spacing: 1px;
+              width: 100%;
+              border: none;
+              outline: none;
+              background: none;
+              color: rgba(12, 24, 33, 0.6);
+              font-weight: normal;
+              font-style: normal;
+              padding: 0.75rem 1rem;
+              border-bottom: 1px solid rgba(12, 24, 33, 0.4);
+              transition: all 200ms ease-in-out; }
+              #main-showcase .showcase-right .form-body form .form-group input[type="text"]:focus,
+              #main-showcase .showcase-right .form-body form .form-group input[type="password"]:focus {
+                border-color: #0057FF; }
+            #main-showcase .showcase-right .form-body form .form-group button {
+              width: 100%;
+              font-size: 14px; }
 
 #checking {
   display: flex;
@@ -596,32 +599,36 @@ p {
 @media screen and (max-width: 375px) {
   .container {
     max-width: 90%;
+    height: 100%;
     margin: 0 auto; }
-  #showcase {
-    grid-template-columns: 1fr;
-    height: 150vh; }
-    #showcase .showcase-right {
-      display: none; }
-    #showcase .showcase-left #main-nav img {
-      height: 40px; }
-    #showcase .showcase-left #main-nav .list {
-      display: none; }
-    #showcase .showcase-left .value-proposition {
-      text-align: center; }
-      #showcase .showcase-left .value-proposition .main-title {
-        font-size: 2rem; }
-      #showcase .showcase-left .value-proposition .lead {
-        font-size: 1rem;
-        width: 95%;
-        margin: 0 auto 5rem; }
-      #showcase .showcase-left .value-proposition .buttons button {
-        margin-bottom: 0.5rem; }
-    #showcase .showcase-left .services-summary {
-      grid-template-columns: 1fr; }
-      #showcase .showcase-left .services-summary .boxes {
-        width: 100%;
-        padding-bottom: 1rem;
-        border-bottom: 0.5px solid rgba(0, 47, 140, 0.2); }
+  #main-showcase {
+    height: auto; }
+    #main-showcase .showcase {
+      grid-template-columns: 1fr;
+      height: 150vh; }
+      #main-showcase .showcase-left #main-nav img {
+        height: 40px; }
+      #main-showcase .showcase-left #main-nav .list {
+        display: none; }
+      #main-showcase .showcase-left .value-proposition {
+        justify-content: space-evenly;
+        text-align: center; }
+        #main-showcase .showcase-left .value-proposition .main-title {
+          font-size: 2rem; }
+        #main-showcase .showcase-left .value-proposition .lead {
+          font-size: 1rem;
+          width: 95%;
+          margin: 0 auto 5rem; }
+        #main-showcase .showcase-left .value-proposition .buttons button {
+          margin-bottom: 0.5rem; }
+      #main-showcase .showcase-left .services-summary {
+        grid-template-columns: 1fr; }
+        #main-showcase .showcase-left .services-summary .boxes {
+          width: 100%;
+          padding-bottom: 1rem;
+          border-bottom: 0.5px solid rgba(0, 47, 140, 0.2); }
+      #main-showcase .showcase-right {
+        display: none; }
   #checking {
     height: 100%;
     margin: 5rem auto 5rem; }
@@ -649,10 +656,12 @@ p {
     height: 100%; }
     #credit-cards .main-title {
       font-size: 1.75rem;
-      font-weight: 900; }
+      font-weight: 900;
+      width: 80%;
+      margin: 0 auto 2rem; }
     #credit-cards .title-lead {
       width: 100%;
-      font-size: 1.1rem; }
+      font-size: 1rem; }
     #credit-cards .cards {
       grid-template-columns: 1fr;
       grid-gap: 4rem;

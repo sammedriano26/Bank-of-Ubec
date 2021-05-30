@@ -785,3 +785,392 @@ p {
       padding-bottom: .5rem; }
       #contact-form .contact-options div:nth-child(2) .contact-group p {
         font-size: .9rem; } }
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto; }
+  #main-showcase {
+    height: auto; }
+    #main-showcase .showcase {
+      grid-template-columns: 1fr;
+      height: 150vh; }
+      #main-showcase .showcase-left #main-nav img {
+        height: 40px; }
+      #main-showcase .showcase-left #main-nav .list {
+        display: none; }
+      #main-showcase .showcase-left .value-proposition {
+        justify-content: space-evenly;
+        text-align: center; }
+        #main-showcase .showcase-left .value-proposition .main-title {
+          font-size: 2rem; }
+        #main-showcase .showcase-left .value-proposition .lead {
+          font-size: 1rem;
+          width: 95%;
+          margin: 0 auto 5rem; }
+        #main-showcase .showcase-left .value-proposition .buttons button {
+          margin-bottom: 0.5rem; }
+      #main-showcase .showcase-left .services-summary {
+        grid-template-columns: 1fr; }
+        #main-showcase .showcase-left .services-summary .boxes {
+          width: 100%;
+          padding-bottom: 1rem;
+          border-bottom: 0.5px solid rgba(0, 47, 140, 0.2); }
+      #main-showcase .showcase-right {
+        display: none; }
+  #checking {
+    height: 100%;
+    margin: 5rem auto 5rem; }
+    #checking img {
+      display: none; }
+    #checking .details-container {
+      width: 95%;
+      height: 100%;
+      box-shadow: 2px 4px 6px rgba(12, 24, 33, 0.2);
+      margin: 0 auto;
+      padding: 2rem 1.5rem; }
+      #checking .details-container .info {
+        width: 100%;
+        margin: 0 auto; }
+        #checking .details-container .info .main-title {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.4; }
+        #checking .details-container .info .title-subtext {
+          font-size: .9rem; }
+        #checking .details-container .info button {
+          width: 100%;
+          font-size: .75rem; }
+  #credit-cards {
+    height: 100%; }
+    #credit-cards .main-title {
+      font-size: 1.75rem;
+      font-weight: 900;
+      width: 80%;
+      margin: 0 auto 2rem; }
+    #credit-cards .title-lead {
+      width: 100%;
+      font-size: 1rem; }
+    #credit-cards .cards {
+      grid-template-columns: 1fr;
+      grid-gap: 4rem;
+      margin: 5rem auto; }
+      #credit-cards .cards .card {
+        height: 100%; }
+        #credit-cards .cards .card img {
+          height: 215px; }
+        #credit-cards .cards .card-name {
+          font-size: 1.15rem; }
+        #credit-cards .cards .card-title {
+          font-size: 1rem;
+          margin-bottom: 1rem; }
+        #credit-cards .cards .card-details div, #credit-cards .cards .card-details div .rewards {
+          font-size: 1.15rem; }
+        #credit-cards .cards .card p {
+          font-size: 1rem; }
+        #credit-cards .cards .card button {
+          font-size: .9rem;
+          height: 35px; }
+  #ubec-pay .container img {
+    display: none; }
+  #ubec-pay .container .ubec-pay-details {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto; }
+    #ubec-pay .container .ubec-pay-details .main-title {
+      font-size: 2.5rem; }
+    #ubec-pay .container .ubec-pay-details .lead {
+      font-size: .9rem;
+      width: 100%; }
+    #ubec-pay .container .ubec-pay-details div:nth-of-type(2) {
+      grid-template-columns: 1fr; }
+      #ubec-pay .container .ubec-pay-details div:nth-of-type(2) div {
+        height: 125px;
+        width: 90%;
+        margin: 0 auto;
+        border-bottom: 0.25px dashed rgba(252, 247, 248, 0.2); }
+        #ubec-pay .container .ubec-pay-details div:nth-of-type(2) div i {
+          font-size: 1.25rem; }
+    #ubec-pay .container .ubec-pay-details button {
+      font-size: .9rem;
+      height: 35px; }
+  #news {
+    margin: 0 auto;
+    text-align: center; }
+    #news .main-title, #news .lead {
+      width: 100%; }
+    #news .main-title {
+      font-size: 1.75rem; }
+    #news .lead {
+      font-size: .75rem;
+      font-weight: 600;
+      width: 100%;
+      margin-bottom: 3rem; }
+    #news #news-articles {
+      grid-template-columns: 1fr;
+      grid-gap: 2rem; }
+      #news #news-articles div {
+        width: 370px;
+        height: 200px;
+        box-shadow: 1px 2px 4px rgba(12, 24, 33, 0.2); }
+      #news #news-articles > div:first-child {
+        grid-row: unset; }
+      #news #news-articles > div:nth-child(4) {
+        grid-column: unset; }
+  #main-footer {
+    height: 100%; }
+    #main-footer .other-services {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      margin: 1rem auto;
+      height: 100%; }
+      #main-footer .other-services .title {
+        margin-bottom: 1rem; }
+      #main-footer .other-services .list {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%; }
+        #main-footer .other-services .list li {
+          margin-bottom: 1rem; }
+          #main-footer .other-services .list li a {
+            font-size: 0.9rem; }
+    #main-footer .contact {
+      flex-direction: column; }
+      #main-footer .contact .footer-details {
+        width: 100%;
+        margin-bottom: 2rem; }
+        #main-footer .contact .footer-details:first-child {
+          justify-content: space-evenly; }
+          #main-footer .contact .footer-details:first-child div:first-child {
+            margin-bottom: 1rem; }
+        #main-footer .contact .footer-details:nth-child(2) img {
+          margin-bottom: 1rem; }
+        #main-footer .contact .footer-details:nth-child(2) p {
+          opacity: 80%; }
+  #contact-header #main-nav img {
+    height: 40px; }
+  #contact-header #main-nav .list {
+    display: none; }
+  #contact-hero .main-title {
+    font-size: 1.5rem;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 0 10rem; }
+  #contact-form .contact-options {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto; }
+    #contact-form .contact-options .form-container {
+      width: 100%;
+      margin: -8rem auto 2rem; }
+      #contact-form .contact-options .form-container div:first-child {
+        margin-bottom: 2rem; }
+    #contact-form .contact-options div:nth-child(2) .lead {
+      width: 100%; }
+    #contact-form .contact-options div:nth-child(2) .contact-group {
+      margin-bottom: 1rem;
+      padding-bottom: .5rem; }
+      #contact-form .contact-options div:nth-child(2) .contact-group p {
+        font-size: .9rem; } }
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto; }
+  #main-showcase {
+    height: auto; }
+    #main-showcase .showcase {
+      grid-template-columns: 1fr;
+      height: 100vh; }
+      #main-showcase .showcase-left #main-nav img {
+        height: 40px; }
+      #main-showcase .showcase-left #main-nav .list {
+        display: none; }
+      #main-showcase .showcase-left .value-proposition {
+        justify-content: space-evenly;
+        text-align: center; }
+        #main-showcase .showcase-left .value-proposition .main-title {
+          font-size: 2rem;
+          width: 60%;
+          margin: 0 auto 2rem; }
+        #main-showcase .showcase-left .value-proposition .lead {
+          font-size: 1rem;
+          width: 60%;
+          margin: 0 auto 5rem; }
+        #main-showcase .showcase-left .value-proposition .buttons button {
+          margin-bottom: 0.5rem; }
+      #main-showcase .showcase-left .services-summary {
+        grid-template-columns: repeat(3, 1fr); }
+        #main-showcase .showcase-left .services-summary .boxes {
+          width: 100%;
+          padding-right: 1.25rem;
+          border-right: 0.5px solid rgba(0, 47, 140, 0.2); }
+          #main-showcase .showcase-left .services-summary .boxes:last-child {
+            border-right: none; }
+      #main-showcase .showcase-right {
+        display: none; }
+  #checking {
+    height: 100%;
+    margin: 5rem auto 5rem; }
+    #checking img {
+      height: 250px; }
+    #checking .details-container {
+      width: 50%;
+      height: auto;
+      box-shadow: 2px 4px 6px rgba(12, 24, 33, 0.2);
+      margin-left: -150px;
+      padding: 2rem 1.5rem; }
+      #checking .details-container .info {
+        width: 70%;
+        margin-left: 6.5rem;
+        padding-right: 1rem; }
+        #checking .details-container .info .main-title {
+          font-size: 1.25rem;
+          font-weight: 600;
+          line-height: 1.4;
+          width: 100%; }
+        #checking .details-container .info .title-subtext {
+          font-size: .8rem; }
+        #checking .details-container .info button {
+          width: 100%;
+          font-size: .75rem; }
+  #credit-cards {
+    height: 100%; }
+    #credit-cards .main-title {
+      font-size: 1.75rem;
+      font-weight: 900;
+      width: 80%;
+      margin: 0 auto 2rem; }
+    #credit-cards .title-lead {
+      width: 60%;
+      font-size: 1rem; }
+    #credit-cards .cards {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 4rem;
+      margin: 5rem auto; }
+      #credit-cards .cards .card {
+        height: 100%; }
+        #credit-cards .cards .card img {
+          height: 180px; }
+        #credit-cards .cards .card-name {
+          font-size: 1.15rem; }
+        #credit-cards .cards .card-title {
+          font-size: 1rem;
+          margin-bottom: 1rem; }
+        #credit-cards .cards .card-details div, #credit-cards .cards .card-details div .rewards {
+          font-size: 1.15rem; }
+        #credit-cards .cards .card p {
+          font-size: 1rem; }
+        #credit-cards .cards .card button {
+          font-size: .9rem;
+          height: 35px; }
+  #ubec-pay .container img {
+    display: none; }
+  #ubec-pay .container .ubec-pay-details {
+    height: 80%;
+    width: 100%;
+    margin: 0 auto; }
+    #ubec-pay .container .ubec-pay-details .main-title {
+      font-size: 2.5rem; }
+    #ubec-pay .container .ubec-pay-details .lead {
+      font-size: .9rem;
+      width: 60%; }
+    #ubec-pay .container .ubec-pay-details div:nth-of-type(2) {
+      grid-template-columns: repeat(3, 1fr); }
+      #ubec-pay .container .ubec-pay-details div:nth-of-type(2) div {
+        height: 125px;
+        width: 100%;
+        margin: 0 auto;
+        border-right: 1px dashed rgba(252, 247, 248, 0.2);
+        padding-right: 2rem; }
+        #ubec-pay .container .ubec-pay-details div:nth-of-type(2) div:last-child {
+          border-right: none; }
+        #ubec-pay .container .ubec-pay-details div:nth-of-type(2) div i {
+          font-size: 1.25rem; }
+    #ubec-pay .container .ubec-pay-details button {
+      font-size: .9rem;
+      height: 35px; }
+  #news {
+    margin: 0 auto;
+    text-align: center; }
+    #news .main-title, #news .lead {
+      width: 100%; }
+    #news .main-title {
+      font-size: 1.75rem; }
+    #news .lead {
+      font-size: .75rem;
+      font-weight: 600;
+      width: 100%;
+      margin-bottom: 3rem; }
+    #news #news-articles {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem; }
+      #news #news-articles div {
+        width: 320px;
+        height: 200px;
+        box-shadow: 1px 2px 4px rgba(12, 24, 33, 0.2);
+        border-radius: 4px; }
+      #news #news-articles > div:first-child {
+        grid-row: unset; }
+      #news #news-articles > div:nth-child(4) {
+        grid-column: unset; }
+  #main-footer {
+    height: 100%; }
+    #main-footer .other-services {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 2rem auto;
+      height: 100%; }
+      #main-footer .other-services .title {
+        margin-bottom: 1rem; }
+      #main-footer .other-services .list {
+        align-items: flex-start;
+        text-align: left;
+        width: 90%; }
+        #main-footer .other-services .list li {
+          margin-bottom: 1rem; }
+          #main-footer .other-services .list li a {
+            font-size: 0.9rem; }
+    #main-footer .contact .footer-details {
+      width: 40%;
+      margin-bottom: 2rem; }
+      #main-footer .contact .footer-details:first-child {
+        justify-content: space-evenly; }
+        #main-footer .contact .footer-details:first-child div:first-child {
+          margin-bottom: 1rem; }
+      #main-footer .contact .footer-details:nth-child(2) img {
+        margin-bottom: 1rem; }
+      #main-footer .contact .footer-details:nth-child(2) p {
+        opacity: 80%; }
+  #contact-header #main-nav img {
+    height: 40px; }
+  #contact-header #main-nav .list {
+    display: none; }
+  #contact-hero .main-title {
+    font-size: 2rem;
+    width: 38%;
+    margin: 0 auto;
+    padding: 5rem 0 10rem; }
+  #contact-form .contact-options {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 90%; }
+    #contact-form .contact-options .form-container {
+      width: 100%;
+      margin: -8rem auto 2rem; }
+      #contact-form .contact-options .form-container div:first-child {
+        margin-bottom: 2rem; }
+    #contact-form .contact-options div:nth-child(2) .lead {
+      width: 100%;
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem; }
+    #contact-form .contact-options div:nth-child(2) .contact-group {
+      margin-bottom: 0.5rem;
+      padding-bottom: .5rem; }
+      #contact-form .contact-options div:nth-child(2) .contact-group p {
+        font-size: .8rem; } }

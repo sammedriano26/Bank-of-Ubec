@@ -984,7 +984,7 @@ p {
     height: auto; }
     #main-showcase .showcase {
       grid-template-columns: 1fr;
-      height: 100vh; }
+      height: 120vh; }
       #main-showcase .showcase-left #main-nav img {
         height: 40px; }
       #main-showcase .showcase-left #main-nav .list {
@@ -1049,7 +1049,7 @@ p {
       font-size: 1rem; }
     #credit-cards .cards {
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 4rem;
+      grid-gap: 2rem;
       margin: 5rem auto; }
       #credit-cards .cards .card {
         height: 100%; }

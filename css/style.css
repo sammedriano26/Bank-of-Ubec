@@ -75,6 +75,20 @@ p {
   .btn-text:hover i {
     transform: translateX(5px); }
 
+.to-top {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  color: #FCF7F8;
+  font-size: 1.5rem;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 500ms ease-in-out; }
+
+.show-btn {
+  opacity: 1;
+  transform: translateY(0); }
+
 #main-nav {
   display: flex;
   justify-content: flex-start;

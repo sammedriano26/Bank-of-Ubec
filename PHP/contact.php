@@ -6,7 +6,6 @@ if($_POST) {
     $email_add = "";
     $phone_num = "";
     $message = "";
-    $recipient = "sam.medriano@outlook.com";
     $email_body = "<div>";
       
     if(isset($_POST['first_name'])) {
@@ -38,6 +37,8 @@ if($_POST) {
                            <div>".$message."</div>
                         </div>";
     }
+
+    $recipient = "sam.medriano@outlook.com";
       
     $email_body .= "</div>";
  
